@@ -37,6 +37,7 @@ function AddTask() {
             id="outlined-basic"
             label="Task"
             variant="outlined"
+            autoComplete="off"
             inputRef={taskRef}
           />
           <Button variant="contained" endIcon={<AddIcon />} onClick={addTask}>
